@@ -2,7 +2,7 @@
   <img src="https://play-lh.googleusercontent.com/8qg4gA2ZhxBNPPSlp3zT4Z54Meh-emx-JXs8M0H78_4ExRA1qE0aNpO00bI_2lbWo5g=w480-h960-rw" width=150>
 </p>
 
-# Hestia:Dreo Plugin
+# Homebridge Dreo Plugin
 
 [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 [![NPM Version](https://img.shields.io/npm/v/homebridge-dreo.svg)](https://www.npmjs.com/package/homebridge-dreo)
@@ -66,8 +66,6 @@ Please open an issue if you have another model that works or doesn't work. If yo
 * **Oscillate:** Toggles fan oscillation
 * **Temperature Sensor:** Displays current temperature sensor reading. (for supported devices, check your devices capabilities) Because the Dreo fan temperature sensors are not entirely accurate, you can also set a specific temperature offset for your devices.
 * **Child Lock:** Lock physical fan controls
-* **Light Control:** Supports standard fan light brightness where exposed by the device
-* **RGB Ambient Light:** Exposes a separate HomeKit light for ambient RGB lighting on supported models, including on/off, brightness, hue, and saturation
 
 ### Heaters
 
@@ -107,7 +105,7 @@ Please open an issue if you have another model that works or doesn't work. If yo
 ## Installation
 
 ```bash
-npm install -g homebridge-hestia-dreo
+npm install -g homebridge-dreo
 ```
 
 (Or install through the Homebridge UI)
